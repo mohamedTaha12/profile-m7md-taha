@@ -1,0 +1,58 @@
+nav {
+    // position: static;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #d4d4d4 !important;
+}
+
+.main-logo {
+    a {
+        padding: 20px;
+    }
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 8px;
+}
+
+.nav-link {
+    position: relative;
+    padding-right: 80px !important;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #595959;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: black;
+}
+
+.nav-link.contact {
+    background-color: black;
+    color: white;
+    padding: 1.1rem 1.5rem !important;
+    margin-right: 6rem;
+}
+
+.nav-link.active::after {
+    content: "";
+    height: 2px;
+    width: 2rem;
+    position: absolute;
+    left: 1.28rem;
+    bottom: 0.9rem;
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-logo {
+        a {
+            padding: 20px 0 !important;
+        }
+    }
+}

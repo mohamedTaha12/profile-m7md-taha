@@ -11,6 +11,11 @@ if (navToggle) {
         navMenu.classList.add('show-menu')
     })
 }
+/*===== OPEN LINKS =====*/
+function openLink(url) {
+    window.open(url, "_blank");
+}
+
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
