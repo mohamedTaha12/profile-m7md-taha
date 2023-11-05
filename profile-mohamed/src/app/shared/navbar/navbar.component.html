@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg ">
+<!-- <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid main-logo">
         <a class="navbar-brand" [routerLink]="['/home']"><span class="logo text-white">M</span> Mohamed Taha.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="bi bi-list "></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
@@ -22,8 +22,50 @@
                     <a class="nav-link contact" routerLinkActive="active" aria-current="page"
                         [routerLink]="['/contact']">Contact Me</a>
                 </li>
-
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#home" class="nav__logo">
+            <span class="nav__logo-circle">M</span>
+            <span class="nav__logo-name">Mohamed Taha.</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <span class="nav__title">Menu</span>
+            <h3 class="nav__name">Mohamed</h3>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About Me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">Road Map</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+                </li>
+            </ul>
+            <!-- ---  CLOSE BUTTON --- -->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+        <div class="nav__buttons">
+            <!-- -- TOGGLE BUTTONS --  -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+        </div>
+    </nav>
+</header>
