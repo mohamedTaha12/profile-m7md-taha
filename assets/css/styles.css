@@ -665,7 +665,7 @@ img {
 .road_map-container {
   position: relative;
   background-color: var(--container-color);
-  /* padding: 5rem 1.5rem 2.5rem; */
+  padding: 5rem 1.5rem 2.5rem;
   margin-top: -2.5rem;
   transition: background-color .4s;
 }
@@ -1544,7 +1544,7 @@ projects__link:hover i {
   .road_map-container {
     grid-column: 2/3;
     grid-row: 1/3;
-    padding: 1rem;
+    padding: 1rem 1.5rem 2.5rem;
     margin-top: 0;
   }
 
